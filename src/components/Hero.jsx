@@ -6,7 +6,7 @@ export default function Hero() {
     <main className="flex flex-col h-screen w-full relative overflow-hidden">
       {/* ✅ Background image full screen */}
       <img
-        className="absolute top-0 left-0 -z-20 w-full h-full object-cover"
+        className="absolute top-0 left-0 -z-20 w-full h-full bg-cover"
         src="src/assets/background.png"
         alt="back-img"
       />
